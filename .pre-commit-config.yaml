@@ -15,3 +15,9 @@ repos:
           - id: uv-lock
           - id: uv-export
             args: [--frozen, --no-hashes, --no-dev, -o, requirements.txt]
+
+    - repo: https://github.com/astral-sh/ruff-pre-commit
+      rev: v0.17.1
+      hooks:
+          - id: ruff-check
+          - id: ruff-format
