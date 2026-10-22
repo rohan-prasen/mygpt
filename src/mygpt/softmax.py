@@ -40,3 +40,5 @@ class Softmax:
         self.softmax_out = softmax_out
 
         return softmax_out
+
+    # TODO: Implement the backward() pass function so that the output embedding layer can learn out of the mistakes it made
