@@ -38,3 +38,5 @@ class EmbeddingLayer:
         """
         self.inputs = inputs
         return self.embeddings[inputs]
+
+    # TODO: implement backward() and get_params() methods to complete the EmbeddingLayer implementation
